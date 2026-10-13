@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的第一个网站</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f3f6ff;
+      color: #25304a;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+    }
+
+    main {
+      max-width: 850px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .hero {
+      background: white;
+      padding: 45px;
+      border-radius: 24px;
+      box-shadow: 0 10px 35px #243b6b12;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e8eeff;
+      color: #4566c9;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 25px 0;
+    }
+
+    h2 {
+      margin-top: 35px;
+      font-size: 23px;
+    }
+
+    p {
+      line-height: 1.9;
+      color: #53617b;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #f0f4ff;
+      padding: 20px;
+      border-radius: 14px;
+    }
+
+    footer {
+      text-align: center;
+      margin: 25px 0;
+      color: #8190aa;
+    }
+
+    @media (max-width: 600px) {
+      main { margin: 20px auto; }
+      .hero { padding: 25px; }
+      h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="hero">
+      <span class="tag">MY FIRST WEBSITE</span>
+
+      <h1>你好，欢迎来到我的网站！ 👋</h1>
+
+      <p>
+        这是我使用 GitHub Pages 发布的第一个个人网页。
+        我正在学习 GitHub，并探索互联网技术。
+      </p>
+
+      <h2>关于我</h2>
+
+      <p>
+        我是一名 GitHub 初学者。
+        我喜欢探索新知识，希望通过一个个小项目
+        不断提升自己的能力。
+      </p>
+
+      <h2>我的学习成果</h2>
+
+      <div class="cards">
+        <div class="card">✅ 创建 GitHub 仓库</div>
+        <div class="card">✅ 管理 Issues</div>
+        <div class="card">✅ 使用分支和 PR</div>
+        <div class="card">🚀 发布个人网站</div>
+      </div>
+    </div>
+
+    <footer>
+      我的第一个网站 · GitHub Pages
+    </footer>
+  </main>
+</body>
+</html>
+  
